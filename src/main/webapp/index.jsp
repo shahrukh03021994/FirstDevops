@@ -12,37 +12,15 @@
 </head>
 <body style="background-color: lightcyan;">
 
-<nav style="background-color:lightblue">
+<jsp:include page="header.jsp"></jsp:include> 
 
-
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"><img src="small.png"/></a>
-    </div>
-     <!-- Creating Menu Bar -->
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#" style="font-family: tahoma;">HOME</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">CATEGORY<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-        <br>
-          <li><a href="#" style="font-family: tahoma;">Fruits</a></li>
-          <hr>
-          <li><a href="#" style="font-family: tahoma;">Dairy</a></li>
-          <br>
-       
-        </ul>
-      </li>
-    
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#" style="font-family: tahoma;"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#" style="font-family: tahoma;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
-</nav>
 <br>
-  </div>
-</nav>
+
+
+
+
+
+
 <div class="container">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -79,23 +57,11 @@
 </div>
 </div>
 <br>
-<a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiA_KO0moPUAhVFwI8KHSGMA5YQFggwMAE&url=https%3A%2F%2Fwww.playstation.com%2Fen-in%2Fexplore%2Fps4%2F&usg=AFQjCNH8cOzOOZ9eo29wNV7hJu9W3sIH_A"><img src="fruit & veg.jpg" alt="HTML5 Icon" style="width:228px;height:228px; margin-left: 170px"></a>
-<a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiA_KO0moPUAhVFwI8KHSGMA5YQFggwMAE&url=https%3A%2F%2Fwww.playstation.com%2Fen-in%2Fexplore%2Fps4%2F&usg=AFQjCNH8cOzOOZ9eo29wNV7hJu9W3sIH_A"><img src="bakery.jpg" alt="HTML5 Icon" style="width:228px;height:228px; margin-left: 170px"></a>
-<a href="https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiA_KO0moPUAhVFwI8KHSGMA5YQFggwMAE&url=https%3A%2F%2Fwww.playstation.com%2Fen-in%2Fexplore%2Fps4%2F&usg=AFQjCNH8cOzOOZ9eo29wNV7hJu9W3sIH_A"><img src="meats.jpg" alt="HTML5 Icon" style="width:228px;height:228px; margin-left: 170px"></a>
-</body>
-<div class="container" style="background-color: lightblue">
-<br>
-
-<h4><a href="http://www.google.com">About Us</a></h4>
-    <hr />
-        <div class="text-center center-block">
-          <p style="text-family=tahoma;font-size: 20px;">@Grocery Store</p>
-            <br />
-                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social"></i></a>
-	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social"></i></a>
-	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social"></i></a>
-	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
+<div style="margin-bottom: 30px;"><a href="productDetails.jsp"><img src="fruit & veg.jpg" alt="HTML5 Icon" style="width:228px;height:228px; margin-left: 170px"></a>
+<a href="productDetails.jsp"><img src="bakery.jpg" alt="HTML5 Icon" style="width:228px;height:228px; margin-left: 170px"></a>
+<a href="productDetails.jsp"><img src="meats.jpg" alt="HTML5 Icon" style="width:228px;height:228px; margin-left: 170px"></a>
 </div>
-    <hr />
-    </div>
+<jsp:include page="footer.jsp"></jsp:include> 
+
+    </body>
 </html>
